@@ -1,4 +1,6 @@
 .carousel-item{
     height:32rem;
-    backhground: #777;
+    background-color: #777;
+    color:white;
+    text-shadow: black 2px 2px 4px;
 }
