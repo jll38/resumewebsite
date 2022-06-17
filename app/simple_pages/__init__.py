@@ -9,3 +9,10 @@ def index():
         return render_template('index.html')
     except TemplateNotFound:
         abort(404)
+
+@simple_pages.route('/projects')
+def projects():
+    try:
+        return render_template('projects.html')
+    except TemplateNotFound:
+        abort(404)

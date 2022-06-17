@@ -1,3 +1,4 @@
-body {
-font-size: 200%;
+.carousel-item{
+    height:32rem;
+    backhground: #777;
 }
