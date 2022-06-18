@@ -5,8 +5,22 @@
     text-shadow: black 2px 2px 4px;
 }
 
-.jl-custom{
-    position:absolute;
-    padding-top:10%;
-    padding-bottom: -10%;
+body{
+    background: #31263E;
 }
+
+@font-face{
+font-family: trial;
+src: url('/app/static/fonts/mandalore.ttf');
+font-weight: bold;}
+
+h1{
+    font-family: "Mandalore";
+    text-shadow: 2px 2px 2px black;
+
+}
+h3{
+    font-family:"Mandalore";
+    text-shadow: 2px 1px 2px black
+}
+
