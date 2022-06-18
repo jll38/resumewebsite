@@ -4,3 +4,9 @@
     color:white;
     text-shadow: black 2px 2px 4px;
 }
+
+.jl-custom{
+    position:absolute;
+    padding-top:10%;
+    padding-bottom: -10%;
+}
