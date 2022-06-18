@@ -6,21 +6,23 @@
 }
 
 body{
-    background: #31263E;
+    background: black;
 }
 
-@font-face{
-font-family: trial;
-src: url('/app/static/fonts/mandalore.ttf');
-font-weight: bold;}
 
 h1{
-    font-family: "Mandalore";
+    font-family: "Neue Haas Grotesk Display Pro";
+    color: white;
     text-shadow: 2px 2px 2px black;
 
 }
 h3{
-    font-family:"Mandalore";
+    font-family:"Neue Haas Grotesk Display Pro";
+     color: white;
     text-shadow: 2px 1px 2px black
+}
+p{
+    color:whitesmoke;
+    text-shadow: 1px 1px 2px black
 }
 
