@@ -6,19 +6,23 @@
 }
 
 body{
-    background: black;
+    background: #171819;
 }
 
 
 h1{
     font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 5em;
     color: white;
     text-shadow: 2px 2px 2px black;
+    text-align:center;
 
 }
-h3{
-    font-family:"Neue Haas Grotesk Display Pro";
-     color: white;
+h2{
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 4em;
+    text-align:center;
+    color: white;
     text-shadow: 2px 1px 2px black
 }
 p{
