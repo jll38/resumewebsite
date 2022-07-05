@@ -29,4 +29,17 @@ p{
     color:whitesmoke;
     text-shadow: 1px 1px 2px black
 }
+.projects p{
+    margin:auto;
+    display:block;
+}
+.projects a{
+    margin:auto;
+    display:block;
+}
+.projects img{
+    margin:auto;
+    display:block;
+    width: 75%;
+}
 
