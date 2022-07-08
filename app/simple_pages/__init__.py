@@ -16,3 +16,10 @@ def projects():
         return render_template('projects.html')
     except TemplateNotFound:
         abort(404)
+
+@simple_pages.route('/contact')
+def contact():
+    try:
+        return render_template('contact.html')
+    except TemplateNotFound:
+        abort(404)
