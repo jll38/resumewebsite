@@ -29,17 +29,41 @@ p{
     color:whitesmoke;
     text-shadow: 1px 1px 2px black
 }
+.projects
+{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
+    }
 .projects p{
     margin:auto;
     display:block;
+    text-align:center
 }
 .projects a{
     margin:auto;
     display:block;
+    text-align:center
 }
 .projects img{
     margin:auto;
     display:block;
     width: 75%;
+    animation: grow ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+    @keyframes grow{
+        from{transform : scale(.75)}
+        to{transform : scale(1)}
+    }
+
 
