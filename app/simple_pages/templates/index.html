@@ -2,25 +2,37 @@
 {% block content%}
 
             <div class="container">
-                    <div class="container fixed">
 
-                            <div class="row">
-                                 <div class="col-6" style="padding-top: 15%">
-                                      <h1>Julian Lechner</h1>
+                            <div class="flexbox-container">
+                                <div class="flexbox-header">
+                                    <h1>Julian Lechner</h1>
                                       <h2>Web Developer</h2>
                                      <p style="text-align: center">Find me on <span><a href="https://www.linkedin.com/in/julianllechner">LinkedIn</a></span> and <span><a href="https://github.com/jll38">GitHub</a></span>!</p>
                                      <p style="text-align: center">View <span><a href="../static/documents/Resume.pdf" target="_blank">my resume</a></span> (PDF)</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <hr class="solid">
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
 
-                                 </div>
-                                <div class="col-2"></div>
-                                <div class="col-4 fill">
-                                    <img src="../static/images/IMG_6731.jpg" alt="Picture of myself" style="width:100%; height:100%">
+                            <div class="flexbox-container-sm">
+                                <div class="flexbox-item">
+                                    <a href="/contact">About Me</a>
+                                </div>
+                                <div class="flexbox-item">
+                                    <a href="/projects">Portfolio</a>
+                                </div>
+                                <div class="flexbox-item">
+                                    <a href="/contact">Contact</a>
                                 </div>
                             </div>
 
 
 
-                    </div>
             </div>
 
 {% endblock %}
