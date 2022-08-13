@@ -23,3 +23,10 @@ def contact():
         return render_template('contact.html')
     except TemplateNotFound:
         abort(404)
+
+@simple_pages.route('/cool_stuff')
+def coolStuff():
+    try:
+        return render_template('testing_cool_things.html')
+    except TemplateNotFound:
+        abort(404)
