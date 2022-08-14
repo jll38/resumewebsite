@@ -113,6 +113,13 @@ p{
 /* Solid border */
 hr.solid {
   border-top: 3px solid #bbb;
+    animation: stretch ease 1s;
+
+}
+
+@keyframes stretch{
+    from{width:0%}
+    to {width:100%;}
 }
 
 .flexbox-container{
