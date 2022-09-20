@@ -28,7 +28,7 @@ footer {
 }
 
 h1{
-    font-family: "Neue Haas Grotesk Display Pro";
+    font-family: "Prompt";
     font-size: 5em;
     color: white;
     text-shadow: 2px 2px 2px black;
@@ -36,9 +36,16 @@ h1{
 
 }
 h2{
-    font-family: "Neue Haas Grotesk Display Pro";
+    font-family: "Prompt";
     font-size: 4em;
     text-align:center;
+    color: white;
+    text-shadow: 2px 1px 2px black
+}
+h3{
+    font-family: "Prompt";
+    font-size: 2em;
+    text-align:left;
     color: white;
     text-shadow: 2px 1px 2px black
 }
@@ -116,7 +123,9 @@ hr.solid {
     animation: stretch ease 1s;
 
 }
-
+a:hover{
+    opacity:70%;
+}
 @keyframes stretch{
     from{width:0%}
     to {width:100%;}
@@ -168,6 +177,7 @@ hr.solid {
 .flexbox-item-3{
     min-height: 100px;
 }
+
 
 
 
