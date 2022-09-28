@@ -124,7 +124,7 @@ hr.solid {
 
 }
 a:hover{
-    opacity:70%;
+    opacity:75%;
 }
 @keyframes stretch{
     from{width:0%}
