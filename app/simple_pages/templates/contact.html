@@ -1,6 +1,19 @@
 {% extends "base.html" %}
 {% block content%}
-    <div class ="container-fluid" style ="border: red solid 2px">
+    <nav>
+            <a style="display:inline!important;" class="nav-link nav-link-cooler" href="/">Home</a>
+            <a style="display:inline!important;" class="nav-link nav-link-cooler" href="/projects">Portfolio</a>
+    </nav>
+    <div class="container-lg container-md">
+        <h1>Contact</h1>
+        <form class="form-group">
+            <label class="form-label" for="name">Name:</label>
+            <input class="form-control w-25" type="text" name="name" id="name">
+            <label class="form-label" for="email">Email:</label>
+            <input class="form-control w-50" type="text" name="email" id="email">
+            <label class="form-label" for="msg">Message:</label>
+            <textarea class="form-control" rows="5" name="msg" id="msg" resize></textarea>
 
+        </form>
     </div>
 {% endblock %}

@@ -1,12 +1,16 @@
 
-.carousel-item{
-    height:32rem;
+/**{
+border: 2px red solid
+}*/
+
+.carousel-item {
+    height: 32rem;
     background-color: #777;
-    color:white;
+    color: white;
     text-shadow: black 2px 2px 4px;
 }
 
-body{
+body {
     background: #171819;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
@@ -14,46 +18,59 @@ body{
 }
 
 img {
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 5rem;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
-h1{
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+}
+
+h1 {
     font-family: "Prompt";
     font-size: 5em;
     color: white;
     text-shadow: 2px 2px 2px black;
-    text-align:center;
+    text-align: center;
 
 }
-h2{
+
+h2 {
     font-family: "Prompt";
     font-size: 4em;
-    text-align:center;
+    text-align: center;
     color: white;
     text-shadow: 2px 1px 2px black
 }
-h3{
+
+h3 {
     font-family: "Prompt";
     font-size: 2em;
-    text-align:left;
+    text-align: left;
     color: white;
     text-shadow: 2px 1px 2px black
 }
-p{
-    color:whitesmoke;
+
+p {
+    color: whitesmoke;
     text-shadow: 1px 1px 2px black
 }
+
+label{
+    color:white;
+}
+input, label{
+    font-size:24px;
+    display:block;
+}
+
 
 .fill img {
     flex-shrink: 0;
@@ -61,96 +78,122 @@ p{
     min-height: 100%
 }
 
-.projects img:hover{
+.projects img:hover {
     animation: spotlight ease 0.5s;
-    animation-iteration-count:1;
+    animation-iteration-count: 1;
     animation-fill-mode: both;
 }
-    @keyframes spotlight
-    {
-        from{transform: scale(1)}
-        to{transform: scale(1.1)}
+
+@keyframes spotlight {
+    from {
+        transform: scale(1)
     }
-    @keyframes outSpotlight
-    {
-       from{transform: scale(1.1)} to{transform: scale(1)}
+    to {
+        transform: scale(1.1)
     }
-.projects
-{
+}
+
+@keyframes outSpotlight {
+    from {
+        transform: scale(1.1)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.projects {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-    @keyframes fadeInAnimation {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-         }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
     }
-.projects p{
-    margin:auto;
-    display:block;
-    text-align:center
+    100% {
+        opacity: 1;
+    }
 }
-.projects p describe{
-    margin:auto;
-    display:block;
-    text-align:center;
+
+.projects p {
+    margin: auto;
+    display: block;
+    text-align: center
+}
+
+.projects p describe {
+    margin: auto;
+    display: block;
+    text-align: center;
     font-size: 2em
 }
-.projects a{
-    margin:auto;
-    display:block;
-    text-align:center
+
+.projects a {
+    margin: auto;
+    display: block;
+    text-align: center
 }
-.projects img{
-    margin:auto;
-    display:block;
+
+.projects img {
+    margin: auto;
+    display: block;
     width: 75%;
     animation: outSpotlight ease 0.5s;
-    animation-iteration-count:1;
+    animation-iteration-count: 1;
     animation-fill-mode: both;
 }
-    @keyframes grow{
-        from{transform : scale(.75)}
-        to{transform : scale(1)}
+
+@keyframes grow {
+    from {
+        transform: scale(.75)
     }
+    to {
+        transform: scale(1)
+    }
+}
 
 /* Solid border */
 hr.solid {
-  border-top: 3px solid #bbb;
+    border-top: 3px solid #bbb;
     animation: stretch ease 1s;
 
 }
-a:hover{
-    opacity:75%;
-}
-@keyframes stretch{
-    from{width:0%}
-    to {width:100%;}
+
+a:hover {
+    opacity: 75%;
 }
 
-.flexbox-container{
-    display:flex;
+@keyframes stretch {
+    from {
+        width: 0%
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.flexbox-container {
+    display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     flex-shrink: 0;
 
 }
-.flexbox-container-sm{
-    display:flex;
+
+.flexbox-container-sm {
+    display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
 
 }
 
-.flexbox-header{
+.flexbox-header {
     margin: 1rem;
     padding: 12rem;
     flex-grow: 1;
@@ -158,25 +201,32 @@ a:hover{
 
 
 .flex-grid {
-  display: flex;
-  justify-content:center;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 0 5em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 5em;
 
 }
-.flex-item{
+
+.flex-item {
     margin: 25px;
-    max-height:400px;
+    max-height: 400px;
 }
 
-.flex-item > div{
-    width:400px;
-    height:500px;
-    box-shadow: 14px 18px 22px 13px rgba(0,0,0,0.75);
--webkit-box-shadow: 14px 18px 22px 13px rgba(0,0,0,0.75);
--moz-box-shadow: 14px 18px 22px 13px rgba(0,0,0,0.75);
+.flex-item > div {
+    width: 400px;
+    height: 500px;
+    box-shadow: 14px 18px 22px 13px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 14px 18px 22px 13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 14px 18px 22px 13px rgba(0, 0, 0, 0.75);
+}
+
+.nav-link-cooler{
+    color:white;
+    font-size:32px;
+    justify-content: center;
 }
 
 
