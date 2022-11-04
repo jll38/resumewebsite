@@ -168,6 +168,15 @@ a:hover{
 }
 .flex-item{
     margin: 25px;
+    max-height:400px;
+}
+
+.flex-item > div{
+    width:400px;
+    height:500px;
+    box-shadow: 14px 18px 22px 13px rgba(0,0,0,0.75);
+-webkit-box-shadow: 14px 18px 22px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 18px 22px 13px rgba(0,0,0,0.75);
 }
 
 
