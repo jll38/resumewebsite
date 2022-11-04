@@ -1,3 +1,4 @@
+
 .carousel-item{
     height:32rem;
     background-color: #777;
@@ -154,31 +155,20 @@ a:hover{
     padding: 12rem;
     flex-grow: 1;
 }
-.flexbox-item
-{
-    min-height: 50px
-}
-.flexbox-item a{
-        text-decoration: none!important;
-        color:white
-}
-.flexbox-item a:hover{
-    animation: spotlight ease 0.5s;
-    animation-iteration-count:1;
-    animation-fill-mode: both;
-}
-.flexbox-item-1{
-    min-height: 100px;
-
-}
-.flexbox-item-2{
-    min-height: 100px;
-}
-.flexbox-item-3{
-    min-height: 100px;
-}
 
 
+.flex-grid {
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 5em;
+
+}
+.flex-item{
+    margin: 25px;
+}
 
 
 

@@ -1,79 +1,67 @@
 {% extends "base.html" %}
-{% block content%}
-    <div style="position:fixed;padding:1%;border: white solid; border-radius: 5%;" >
-        <a href="/" style ="justify-content: center; text-align: center;text-decoration: none;color:white;">Home</a>
+{% block content %}
+    <div style="position:fixed;padding:1%;border: white solid; border-radius: 5%;">
+        <a href="/" style="justify-content: center; text-align: center;text-decoration: none;color:white;">Home</a>
     </div>
-    <div class ="container-fluid" style ="">
-        <div class="row" style ="">
-            <h1>Projects</h1>
+    <div class="container-fluid">
+    <h1>Projects</h1>
+    <div class="flex-grid">
+        <div class="flex-item">
+            <div class="card" style="width:400px;">
+                <img class="card-img-top" src="../static/images/chat.PNG" alt="Chat App">
+                <div class="card-body" style="background-color:#4d4b4b">
+                    <h3 class="card-title">PHPChat</h3>
+                    <p class="card-text">A full-stack user experience utilizing HTML, CSS, Bootstrap, PHP, MySQL, and
+                        JQuery.</p>
+                    <a class="card-link" href="https://github.com/jll38/web-chat-app" target="_blank">Github
+                        Repository</a>
+                    <a href="https://web.njit.edu/~jll38/assignment5/register.php" target="_blank" style="float:right"
+                       class="btn btn-primary btn-lg" role="button" aria-pressed="true">Visit</a>
+                </div>
+            </div>
         </div>
-        <div class="row" style ="">
-
-            <div class="col-md-4 projects" >
-                <div class="row">
-                   <a href="https://jll38-is218-final.herokuapp.com/" target="_blank"><img src="../static/images/transactions.PNG" alt="Transactions Project"></a>
+        <div class="flex-item">
+            <div class="card" style="width:400px;">
+                <img class="card-img-top" src="../static/images/chat.PNG" alt="Chat App">
+                <div class="card-body" style="background-color:#4d4b4b">
+                    <h3 class="card-title">PHPChat</h3>
+                    <p class="card-text">A full-stack user experience utilizing HTML, CSS, Bootstrap, PHP, MySQL, and
+                        JQuery.</p>
+                    <a class="card-link" href="https://github.com/jll38/web-chat-app" target="_blank">Github
+                        Repository</a>
+                    <a href="https://web.njit.edu/~jll38/assignment5/register.php" target="_blank" style="float:right"
+                       class="btn btn-primary btn-lg" role="button" aria-pressed="true">Visit</a>
                 </div>
-                <br/>
-                <p><strong>Transactions</strong>
-                <br/>
-                </p>
-                <a href="https://github.com/jll38/IS218_Final" target="_blank">Github Repository</a>
-                <a href="https://jll38-is218-final.herokuapp.com/" target="_blank">Heroku Production</a>
             </div>
-
-            <div class="col-md-4 projects" >
-                <div class="row" style="margin-top:5%;margin-bottom:7.25%;">
-                     <a href="https://project-two-jll38.herokuapp.com/" target="_blank"><img src="../static/images/article.PNG" alt="Article Project"></a>
-                </div>
-                <p><strong>Technologies Article</strong></p>
-                <a href="https://github.com/jll38/IS218_Project_Two_Calc" target="_blank">Github Repository</a>
-                <a href="https://project-two-jll38.herokuapp.com/" target="_blank">Heroku Production</a>
-            </div>
-
-            <div class="col-md-4 projects" >
-                <div class="row" style="margin-top:5%;margin-bottom:7.25%;">
-                    <a href="https://web.njit.edu/~jll38/assignment1/index.html" target="_blank"><img src="../static/images/lake clark web.PNG" alt="National Park Advertisement Website"></a>
-
-                </div>
-                <p><strong>National Park Advertisement Website</strong>
-                </p>
-                <a href="https://web.njit.edu/~jll38/assignment1/index.html" target="_blank">Website (NJIT Filesystem)</a>
-            </div>
-
         </div>
-        <div class="row">
-
-            <div class="col-md-4 projects" >
-                <div class="row">
-                   <a href="https://web.njit.edu/~jll38/assignment5/register.php" target="_blank"><img style="margin-top:5%;" src="../static/images/chat.PNG" alt="Chat App"></a>
+        <div class="flex-item">
+            <div class="card" style="width:400px;">
+                <img class="card-img-top" src="../static/images/chat.PNG" alt="Chat App">
+                <div class="card-body" style="background-color:#4d4b4b">
+                    <h3 class="card-title">PHPChat</h3>
+                    <p class="card-text">A full-stack user experience utilizing HTML, CSS, Bootstrap, PHP, MySQL, and
+                        JQuery.</p>
+                    <a class="card-link" href="https://github.com/jll38/web-chat-app" target="_blank">Github
+                        Repository</a>
+                    <a href="https://web.njit.edu/~jll38/assignment5/register.php" target="_blank" style="float:right"
+                       class="btn btn-primary btn-lg" role="button" aria-pressed="true">Visit</a>
                 </div>
-
-                <br/>
-                <p><strong>Live Chat App</strong>
-                <br/>
-                </p>
-                <a href="https://web.njit.edu/~jll38/assignment5/register.php" target="_blank">Website (NJIT Filesystem)</a>
             </div>
-
-            <div class="col-md-4 projects" >
-                <div class="row" style="margin-top:5%;margin-bottom:7.25%;">
-                <a href="https://cool-stuff-and-projects.herokuapp.com/" target="_blank"><img style="margin-top:5%;" src="../static/images/projects.png" alt="Small Projects thumb"></a>
-                </div>
-                <p>Collection of small projects
-                </p>
-                <a href="https://cool-stuff-and-projects.herokuapp.com/">Heroku Production</a>
-
-            </div>
-
-            <div class="col-md-4 projects" >
-                <div class="row" style="margin-top:5%;margin-bottom:7.25%;">
-                </div>
-                <p><strong>Coming soon</strong>
-                </p>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-
         </div>
+    <div class="flex-item">
+            <div class="card" style="width:400px;">
+                <img class="card-img-top" src="../static/images/chat.PNG" alt="Chat App">
+                <div class="card-body" style="background-color:#4d4b4b">
+                    <h3 class="card-title">PHPChat</h3>
+                    <p class="card-text">A full-stack user experience utilizing HTML, CSS, Bootstrap, PHP, MySQL, and
+                        JQuery.</p>
+                    <a class="card-link" href="https://github.com/jll38/web-chat-app" target="_blank">Github
+                        Repository</a>
+                    <a href="https://web.njit.edu/~jll38/assignment5/register.php" target="_blank" style="float:right"
+                       class="btn btn-primary btn-lg" role="button" aria-pressed="true">Visit</a>
+                </div>
+            </div>
+        </div>
+
     </div>
 {% endblock %}
