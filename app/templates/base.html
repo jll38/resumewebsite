@@ -7,6 +7,11 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description"
+              content="The personal website of Web Developer Julian Lechner. Currently looking for employment.
+               This is where I display my information along with my portfolio">
+        <meta name="robots" content="index,follow">
+        <meta name="keywords" content="web developer, for hire, frontend, front-end,front end developer, full stack">
         {% block styles %}
             <!-- Bootstrap CSS -->
             {{ bootstrap.load_css() }}
@@ -19,13 +24,13 @@
     {% endblock %}
 </head>
 <body>
-{% from 'bootstrap5/nav.html' import render_nav_item, render_breadcrumb_item%}
-            {% from 'bootstrap5/utils.html' import render_messages %}
-            {% from 'bootstrap5/form.html' import render_form, render_field, render_form_row %}
+{% from 'bootstrap5/nav.html' import render_nav_item, render_breadcrumb_item %}
+{% from 'bootstrap5/utils.html' import render_messages %}
+{% from 'bootstrap5/form.html' import render_form, render_field, render_form_row %}
 
-        {% block content %}
+{% block content %}
 
-        {% endblock %}
+{% endblock %}
 </div>
 
 {% block scripts %}
