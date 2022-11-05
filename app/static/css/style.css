@@ -187,12 +187,14 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    margin: auto;
+    position:absolute;
 
 }
 
 .flexbox-header {
-    margin: 1rem;
-    padding: 12rem;
+    margin: auto;
+    padding: 5rem;
     flex-grow: 1;
 }
 
