@@ -1,4 +1,3 @@
-
 /**{
 border: 2px red solid
 }*/
@@ -229,5 +228,9 @@ a:hover {
     justify-content: center;
 }
 
+@font-face {
+    font-family: "Azonix";
+    src: url('/static/fonts/Azonix.otf');
+}
 
 
