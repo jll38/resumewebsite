@@ -1,15 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>About</h1>
+    <link rel="stylesheet" type="text/css" href="../../static/css/skillbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% include 'nav.html' %}
 
+    <h1>About</h1>
     <section name="bio" class="container-lg">
         <div class="row" style="background-color: #171717; border:white 4px solid; box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
 -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
 -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);">
             <section name="photo" class="col-lg">
-                <img src="../static/images/IMG_5335.jpg" style="max-width:300px;">
+                <img src="../static/images/IMG_5335.jpg" style="max-width:350px;">
             </section>
             <section name="bio-text" class="col-sm">
+
                 <h3>My Story</h3>
                 <p>Hello, my name is Julian Lechner and I am a Web Developer with 3+ years experience with building web
                     applications. I am currently studying Web & Information Systems at New Jersey Institute of
@@ -18,19 +22,24 @@
                     develop
                     fully functional web applications through hours of hard work and dedication.</p>
                 <h3>Technical Skills</h3>
-                <p>Aliquam eget metus elementum, posuere velit vel, sodales enim. Duis venenatis quis est non hendrerit.
-                    Aenean vitae orci lacus. Nullam quis sagittis enim. Donec in hendrerit magna, a consectetur orci.
-                    Vestibulum sed viverra ex, et placerat risus. Proin pulvinar, lectus nec maximus tincidunt,
-                    velit felis porttitor arcu, ac venenatis elit massa ut enim. Nullam molestie interdum tellus,
-                    vel tempor lorem fermentum eget. In vitae tortor et ligula malesuada scelerisque eget ac mauris.
-                    Pellentesque et tempor velit. Vivamus dapibus, velit sed facilisis maximus, quam diam aliquet
-                    mauris,
-                    semper consequat felis eros et libero. Sed semper, sapien sed faucibus lacinia, elit arcu sodales
-                    nisl,
-                    id dictum augue nulla nec augue.</p>
-
-
+                <p>HTML</p>
+                <div class="skill-container">
+                    <div class="skill html">100%  &nbsp</div>
+                </div>
+                <br>
+                <p>CSS</p>
+                <div class="skill-container">
+                    <div class="skill css">75%  &nbsp</div>
+                </div>
+                <br>
+                <p>JavaScript</p>
+                <div class="skill-container">
+                    <div class="skill js">70%  &nbsp</div>
+                </div>
+                <br>
+            </section>
         </div>
     </section>
+
 
 {% endblock %}
