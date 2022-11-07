@@ -1,25 +1,36 @@
 {% extends "base.html" %}
-{% block content%}
+{% block content %}
     <h1>About</h1>
+
     <section name="bio" class="container-lg">
-        <section name="photo" style="float:right; margin: 0 0 0 50px">
-            <img src="../static/images/myself.PNG">
-        </section>
-        <section name="bio-text" style="margin: 0 50% 0 0">
-            <h3>My Story</h3>
-            <p>Hello, my name is Julian Lechner and I am a Web Developer with 3+ years experience with building web
-            applications. I am currently studying Web & Information Systems at New Jersey Institute of Technology and
-            seeking an internship for Summer 2023. My goal is to build aesthetically pleasing web-pages and develop
-            fully functional web applications through hours of hard work and dedication.</p>
-            <h3>Technical Skills</h3>
-            <p>Aliquam eget metus elementum, posuere velit vel, sodales enim. Duis venenatis quis est non hendrerit.
-                Aenean vitae orci lacus. Nullam quis sagittis enim. Donec in hendrerit magna, a consectetur orci.
-                Vestibulum sed viverra ex, et placerat risus. Proin pulvinar, lectus nec maximus tincidunt,
-                velit felis porttitor arcu, ac venenatis elit massa ut enim. Nullam molestie interdum tellus,
-                vel tempor lorem fermentum eget. In vitae tortor et ligula malesuada scelerisque eget ac mauris.
-                Pellentesque et tempor velit. Vivamus dapibus, velit sed facilisis maximus, quam diam aliquet mauris,
-                semper consequat felis eros et libero. Sed semper, sapien sed faucibus lacinia, elit arcu sodales nisl,
-                id dictum augue nulla nec augue.</p>
-        </section>
+        <div class="row" style="background-color: #171717; border:white 4px solid; box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+-webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);">
+            <section name="photo" class="col-lg">
+                <img src="../static/images/myself.PNG">
+            </section>
+            <section name="bio-text" class="col-sm">
+                <h3>My Story</h3>
+                <p>Hello, my name is Julian Lechner and I am a Web Developer with 3+ years experience with building web
+                    applications. I am currently studying Web & Information Systems at New Jersey Institute of
+                    Technology and
+                    seeking an internship for Summer 2023. My goal is to build aesthetically pleasing web-pages and
+                    develop
+                    fully functional web applications through hours of hard work and dedication.</p>
+                <h3>Technical Skills</h3>
+                <p>Aliquam eget metus elementum, posuere velit vel, sodales enim. Duis venenatis quis est non hendrerit.
+                    Aenean vitae orci lacus. Nullam quis sagittis enim. Donec in hendrerit magna, a consectetur orci.
+                    Vestibulum sed viverra ex, et placerat risus. Proin pulvinar, lectus nec maximus tincidunt,
+                    velit felis porttitor arcu, ac venenatis elit massa ut enim. Nullam molestie interdum tellus,
+                    vel tempor lorem fermentum eget. In vitae tortor et ligula malesuada scelerisque eget ac mauris.
+                    Pellentesque et tempor velit. Vivamus dapibus, velit sed facilisis maximus, quam diam aliquet
+                    mauris,
+                    semper consequat felis eros et libero. Sed semper, sapien sed faucibus lacinia, elit arcu sodales
+                    nisl,
+                    id dictum augue nulla nec augue.</p>
+
+
+        </div>
     </section>
+
 {% endblock %}
