@@ -3,7 +3,19 @@
     border: 2px red solid;
 }
 */
-
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.my-nav{
+    background-color: rgba(225, 255, 255, 0.7);
+    padding: 8px 0px 10px 0px;
+    position: sticky;
+}
 .carousel-item {
     height: 32rem;
     background-color: #777;
@@ -198,7 +210,7 @@ a:hover {
 
 .flexbox-header {
     margin: auto;
-    padding: 5rem;
+    padding: 1rem;
     flex-grow: 1;
 }
 
