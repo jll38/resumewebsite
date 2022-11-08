@@ -256,11 +256,22 @@ a:hover {
 .card{max-width:300px; max-height:400px}
 
 #bio-photo{
-    max-width:400px;
     float:left;
+    margin-left:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100px;
+    background-color: #171717;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+-webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+
 }
 
 #bio-text{
+    padding: 20px 10px 10px 0;
     max-width:600px;
     float:right;
 }
@@ -270,4 +281,5 @@ a:hover {
     background-color: #171717; border:white 4px solid; box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
 -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
 -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+    margin: 0 0 75px 0;
 }
