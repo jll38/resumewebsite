@@ -12,7 +12,6 @@
   transform: translate(-50%, -50%);
 }
 .my-nav{
-    background-color: rgba(225, 255, 255, 0.7);
     padding: 8px 0px 10px 0px;
     position: sticky;
 }
@@ -227,7 +226,7 @@ a:hover {
 
 .flex-item {
     margin: 25px;
-    max-height: 400px;
+    max-height: 350px;
 }
 
 .flex-item > div {
@@ -254,3 +253,4 @@ a:hover {
     src: url('/static/fonts/Cornerstone.ttf');
 }
 
+.card{max-width:300px; max-height:400px}
