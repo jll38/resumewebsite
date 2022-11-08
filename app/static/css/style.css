@@ -254,3 +254,20 @@ a:hover {
 }
 
 .card{max-width:300px; max-height:400px}
+
+#bio-photo{
+    max-width:400px;
+    float:left;
+}
+
+#bio-text{
+    max-width:600px;
+    float:right;
+}
+
+#bio-container{
+    overflow:auto;
+    background-color: #171717; border:white 4px solid; box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+-webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+}
