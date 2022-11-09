@@ -1,0 +1,14 @@
+@media (max-width:1200px) {
+  #bio-photo{
+    width:800px;
+    padding: 20px 300px;
+  }
+}
+
+@media (min-width:1400px) {
+
+  #bio-photo{
+    width:600px;
+    padding: 20px 150px;
+  }
+}

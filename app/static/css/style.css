@@ -3,6 +3,9 @@
     border: 2px red solid;
 }
 */
+::-webkit-scrollbar {
+  width: 10px;
+}
 .center {
   margin: 0;
   position: absolute;
@@ -47,7 +50,7 @@ footer {
 
 h1 {
     font-family: "Cornerstone";
-    font-size: 5em;
+    font-size: 4em;
     color: white;
     text-shadow: 2px 2px 2px black;
     text-align: center;
@@ -56,7 +59,7 @@ h1 {
 
 h2 {
     font-family: "Cornerstone";
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     color: white;
     text-shadow: 2px 1px 2px black
@@ -258,18 +261,21 @@ a:hover {
 #bio-photo{
     position: relative;
     padding: 45px 20px;
-    /* width: 400px; */
+    width: 450px;
+    height:650px;
     float: left;
     /* display: flex; */
     justify-content: center;
     /* align-items: center; */
     overflow: hidden;
-    border-radius: 20px;
     background-color: #171717;
+
+}
+#bio-photo img{
+    border-radius: 100px;
     box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
 -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
 -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
-
 }
 
 #bio-text{
@@ -285,3 +291,15 @@ a:hover {
 -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
     margin: 0 0 75px 0;
 }
+#bio-container h3{
+    font-size:36px;
+}
+#bio-container p{
+    font-size:18px;
+}
+.my-nav a{
+    font-size:90%;
+}
+
+
+
