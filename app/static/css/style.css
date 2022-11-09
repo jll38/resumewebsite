@@ -256,12 +256,13 @@ a:hover {
 .card{max-width:300px; max-height:400px}
 
 #bio-photo{
-    max-width:300px;
-    float:left;
-    margin-left:100px;
-    display: flex;
+    position: relative;
+    padding: 45px 20px;
+    /* width: 400px; */
+    float: left;
+    /* display: flex; */
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     overflow: hidden;
     border-radius: 20px;
     background-color: #171717;
