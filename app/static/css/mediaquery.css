@@ -10,8 +10,18 @@
   #bio-text{
     max-width:800px;
   }
-}
 
+  .my-nav a{
+    font-size:125%;
+  }
+}
+@media (min-width:851px){
+  .my-nav a{
+    font-size:200%;
+    margin:0 2rem;
+  }
+
+}
 @media (min-width:851px) and (max-width:1200px) {
   #bio-photo{
     width:800px;
