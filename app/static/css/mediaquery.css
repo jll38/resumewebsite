@@ -1,7 +1,29 @@
-@media (max-width:1200px) {
+@media (max-width:850px) {
+  #bio-photo{
+    margin: 0 20%;
+    height:auto;
+    padding: 20px 0px;
+  }
+  #bio-photo img{
+    width:300px;
+  }
+  #bio-text{
+    max-width:800px;
+  }
+}
+
+@media (min-width:851px) and (max-width:1200px) {
   #bio-photo{
     width:800px;
-    padding: 20px 300px;
+    margin: 0 25%;
+  }
+
+  #bio-text{
+    max-width:900px;
+  }
+
+  #bio-container{
+    padding: 0 20px;
   }
 }
 
@@ -12,3 +34,6 @@
     padding: 20px 150px;
   }
 }
+
+
+
